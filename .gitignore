@@ -1,0 +1,65 @@
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos comprimidos
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Ignorar ejecutables y binarios
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.apk
+*.msi
+*.bin
+*.obj
+*.o
+
+# Ignorar imágenes pesadas y multimedia
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.mp3
+*.wav
+*.flac
+*.iso
+
+# Ignorar documentos pesados
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+
+# Ignorar entornos virtuales de Python
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Ignorar dependencias de Node.js
+node_modules/
+
+# Ignorar dependencias de Java/Maven
+target/
+
+# Ignorar dependencias de Java/Gradle
+.gradle/
+build/
+
+# Ignorar configuraciones de IDE
+.vscode/
+.idea/
+*.iml
+
+# Ignorar logs y temporales
+*.log
+*.tmp
+*.swp

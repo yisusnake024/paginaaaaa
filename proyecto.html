@@ -1,0 +1,30 @@
+    # HTML con estilos bonitos
+    html = """<!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset='UTF-8'>
+      <meta http-equiv='refresh' content='3'>
+      <title>ESP32 + DHT22</title>
+      <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: #f0f0f0; }
+        .card {
+          display: inline-block;
+          background: #fff;
+          padding: 20px;
+          margin-top: 50px;
+          border-radius: 15px;
+          box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        h1 { color: #333; }
+        .value { font-size: 2em; margin: 10px 0; }
+      </style>
+    </head>
+    <body>
+      <div class="card">
+        <h1>🌡️ Estación Meteorológica</h1>
+        <p class="value"><b>Temperatura:</b> {0:.1f} &deg;C</p>
+        <p class="value"><b>Humedad:</b> {1:.1f} %</p>
+      </div>
+    </body>
+    </html>
+    """.format(temperatura, humedad)
